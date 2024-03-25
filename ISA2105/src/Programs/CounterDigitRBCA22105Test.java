@@ -28,33 +28,32 @@ public class CounterDigitRBCA22105Test {
 
 	@Test
 	public void testCountDigitsForZero() {
-		CounterDigitRBCA22105Test counter = new CounterDigitRBCA22105Test ();
-        int result = counter.countDigits(0);
+		CounterDigitRBCA22105 counter = new CounterDigitRBCA22105 ();
+        int result = counter.CountDigits(0);
         assertEquals(1, result);
     }
 
     @Test
     public void testCountDigitsForPositiveNumber() {
-    	CounterDigitRBCA22105Test  counter = new CounterDigitRBCA22105Test ();
-        int result = counter.countDigits(12345);
+    	CounterDigitRBCA22105  counter = new CounterDigitRBCA22105 ();
+        int result = counter.CountDigits(12345);
         assertEquals(5, result);
     }
 
     @Test
     public void testCountDigitsForNegativeNumber() {
-    	CounterDigitRBCA22105Test counter = new CounterDigitRBCA22105Test ();
-        int result = counter.countDigits(-987);
+    	CounterDigitRBCA22105 counter = new CounterDigitRBCA22105 ();
+        int result = counter.CountDigits(-987);
         assertEquals(3, result);
     }
-private int countDigits(int i) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
 {
 
+
 }
 
 }
+	
+
 
 
 
