@@ -10,9 +10,7 @@ import org.junit.Test;
 
 public class PersonRBCA22105Test {
 
-	public PersonRBCA22105Test(String name, int age) {
-		// TODO Auto-generated constructor stub
-	}
+	
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
@@ -34,19 +32,9 @@ public class PersonRBCA22105Test {
 	 public void testPersonConstructorAndGetterMethods() {
         String name = "John";
         int age = 30;
-        PersonRBCA22105Test person = new PersonRBCA22105Test(name, age);
+        PersonRBCA22105 person = new PersonRBCA22105(name, age);
         
         assertEquals(name, person.getName());
         assertEquals(age, person.getAge());
     }
-
-	private Object getAge() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	private Object getName() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
